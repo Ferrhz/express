@@ -3,6 +3,7 @@ var router = express.Router();
 const petController = require("../controller/petsController")
 const usuarioController = require("../controller/usuarioConteroller")
 const contatoController = require("../controller/contatoController")
+const servicosController = require("../controller/servicosController")
 
 
 /* GET home page. */
@@ -15,5 +16,5 @@ router.get('/pets', petController.listaPets);
 router.get('/cadastro', usuarioController.cadastro);
 router.get('/contato', contatoController.contato);
 router.get('/login', usuarioController.login);
-
+router.get('/servicos', servicosController.servicos)
 module.exports = router;
