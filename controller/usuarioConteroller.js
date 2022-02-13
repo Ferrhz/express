@@ -4,6 +4,9 @@ cadastro:(req, res) =>{
 },
 login:(req, res) =>{
     res.render('login')
+},
+sobre:(req, res) =>{
+    res.render('sobre')
 }
 }
 module.exports = usuarioController

@@ -4,12 +4,10 @@ const petController = require("../controller/petsController")
 const usuarioController = require("../controller/usuarioConteroller")
 const contatoController = require("../controller/contatoController")
 const servicosController = require("../controller/servicosController")
-
+const indexController = require("../controller/indexController")
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Aula 03/02' });
-});
+
 
 router.get('/servico', petController.listaServico);
 router.get('/pets', petController.listaPets);
@@ -17,4 +15,6 @@ router.get('/cadastro', usuarioController.cadastro);
 router.get('/contato', contatoController.contato);
 router.get('/login', usuarioController.login);
 router.get('/servicos', servicosController.servicos)
+router.get('/',indexController.index)
+router.get('/sobre', usuarioController.sobre)
 module.exports = router;
