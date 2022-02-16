@@ -1,5 +1,4 @@
-{
-    "pets": [
+[
       {
         "name" : "Purrsloud",
         "species" : "Cat",
@@ -18,4 +17,4 @@
         "birthYear" : 2012
       }
     ]
-  }
+  

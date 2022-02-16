@@ -17,4 +17,10 @@ router.get('/login', usuarioController.login);
 router.get('/servicos', servicosController.servicos)
 router.get('/',indexController.index)
 router.get('/sobre', usuarioController.sobre)
+router.get('/cadastroservico',servicosController.exibeServico)
+router.post('/cadastroservico',servicosController.criarServico)
+
+router.get('/cadastrapet', petController.exibePet)
+router.post('/cadastrapet', petController.cadastraPet)
+
 module.exports = router;
