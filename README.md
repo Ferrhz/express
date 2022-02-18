@@ -9,4 +9,4 @@
 
 - 📫 How to reach me: <a href = "mailto:fernando_tadeu@yahoo.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a> and  <a href="https://www.linkedin.com/in/fernando-tadeu-silva-de-oliveira-70b12610b" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
 
-
+![Snake animation](https://github.com/seu-usuário-aqui/seu-usuário-aqui/blob/output/github-contribution-grid-snake.svg)
